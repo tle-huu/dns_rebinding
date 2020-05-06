@@ -4,9 +4,7 @@
 ## Foreword
 
 - Simple Dns Server (A and PTR records) along with simple payloads to achieve a DNS rebinding attack.
-- The DNS server has been developped on MacOS and might not compile on other plateform.
-
-- https://tools.ietf.org/html/rfc1035
+- RFC 1035: https://tools.ietf.org/html/rfc1035
 
 ## Building and Running the DNS server
 
@@ -24,6 +22,6 @@
 
  - Run the DNS server
 
- - Once the victim has been rebound, you can freely browse the target device as if you were inside the victim's LAN by brtowsing the node server.
+ - Once the victim has been rebound, you can freely browse the target device as if you were inside the victim's LAN by browsing the node server.
 
 
